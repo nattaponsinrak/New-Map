@@ -14,6 +14,7 @@
 		0DD923BB1D1B95A80031E749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD923B91D1B95A80031E749 /* LaunchScreen.storyboard */; };
 		0DD923C61D1B95A80031E749 /* New_NEUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD923C51D1B95A80031E749 /* New_NEUTests.swift */; };
 		0DD923D11D1B95A90031E749 /* New_NEUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD923D01D1B95A90031E749 /* New_NEUUITests.swift */; };
+		0DD923DF1D1B96C60031E749 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD923DE1D1B96C60031E749 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0DD923CC1D1B95A80031E749 /* New NEUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New NEUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD923D01D1B95A90031E749 /* New_NEUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_NEUUITests.swift; sourceTree = "<group>"; };
 		0DD923D21D1B95A90031E749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD923DE1D1B96C60031E749 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD923DF1D1B96C60031E749 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		0DD923A41D1B95A80031E749 = {
 			isa = PBXGroup;
 			children = (
+				0DD923DE1D1B96C60031E749 /* MapKit.framework */,
 				0DD923AF1D1B95A80031E749 /* New NEU */,
 				0DD923C41D1B95A80031E749 /* New NEUTests */,
 				0DD923CF1D1B95A80031E749 /* New NEUUITests */,
